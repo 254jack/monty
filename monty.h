@@ -76,7 +76,7 @@ int _isdigit(char *string);
 
 void pall(stack_t **stack, unsigned int ln);
 void push(stack_t **stack, unsigned int ln);
-void pint(stack_t **stack, unsigned int ln);
+/*void pint (stack_t **stack, unsigned int ln);
 void pop(stack_t **stack, unsigned int ln);
 
 void swap(stack_t **stack, unsigned int ln);
@@ -93,6 +93,6 @@ void rot1(stack_t **stack, unsigned int ln);
 void rotr(stack_t **stack, unsigned int ln);
 void stack(stack_t **stack, unsigned int ln);
 void queue(stack_t **stack, unsigned int ln);
-
+ */
 
 #endif

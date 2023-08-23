@@ -1,12 +1,11 @@
 #include "monty.h"
-
+#define _GNU_SOURCE
 vars var;
 
 /**
- * main - main entry function
+ * main - main function entry
  * @ac: arguments count
  * @av: argument vector
- * Return: 0
  */
 int main(int ac, char **av)
 {
@@ -29,7 +28,7 @@ int main(int ac, char **av)
 		return (EXIT_FAILURE);
 	}
 
-	while (getline(&var.buff, &var.tmp, var.file) != EOF)
+	while (getline(&var.buff, &var.tmp, var.file) != -1)
 	{
 		opcode = strtok(var.buff, " \r\t\n");
 		if (opcode != NULL)
