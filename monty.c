@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 /**
  * push - a function that push an object to the struct
  * @stack: pointer to a pointer to stack_t
