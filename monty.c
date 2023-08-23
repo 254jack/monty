@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * push - a function that push an object to the struct
+ * @stack: pointer to a pointer to stack_t
+ * @value: integer arguments
+ * Return: 0
+*/
 void push(stack_t **stack, int value)
 {
     stack_t *new_node = malloc(sizeof(stack_t));
@@ -24,7 +29,11 @@ void push(stack_t **stack, int value)
 
     *stack = new_node;
 }
-
+/**
+ * pall - a function that removes an object to the struct
+ * @stack: pointer to a pointer to stack_t
+ * Return: 0
+*/
 void pall(stack_t **stack)
 {
     stack_t *current = *stack;
@@ -34,7 +43,12 @@ void pall(stack_t **stack)
         current = current->next;
     }
 }
-
+/**
+ * main - main entry function
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: 0
+*/
 int main(int argc, char *argv[])
 {
     FILE *file;
