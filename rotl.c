@@ -7,6 +7,7 @@
 void rotl(stack_t **head, unsigned int num)
 {
 	stack_t *copy;
+
 	copy = *head;
 
 	(void)num;

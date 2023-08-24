@@ -7,7 +7,9 @@
 void rotr(stack_t **head, unsigned int num)
 {
 	stack_t *copy;
+
 	copy = *head;
+
 	(void)num;
 
 	if (*head == NULL || (*head)->next == NULL)
