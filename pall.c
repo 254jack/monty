@@ -6,15 +6,15 @@
  */
 void pall(stack_t **head, unsigned int num)
 {
-    stack_t *h;
-    (void)num;
+	stack_t *h;
+	(void)num;
 
-    h = *head;
-    if (h == NULL)
-        return;
-    while (h)
-    {
-        printf("%d\n", h->n);
-        h = h->next;
-    }
+	h = *head;
+	if (h == NULL)
+		return;
+	while (h)
+	{
+		printf("%d\n", h->n);
+		h = h->next;
+	}
 }

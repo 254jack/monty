@@ -6,6 +6,6 @@
  */
 void nop(stack_t **head, unsigned int num)
 {
-    (void)head;
-    (void)num;
+	(void)head;
+	(void)num;
 }
