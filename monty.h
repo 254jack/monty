@@ -74,6 +74,7 @@ void pstr(stack_t **head, unsigned int num);
 void rotl(stack_t **head, unsigned int num);
 void rotr(stack_t **head, __attribute__((unused)) unsigned int num);
 void addnode(stack_t **head, int n);
+void f_queue(stack_t **head, unsigned int num);
 void addqueue(stack_t **head, unsigned int num);
 void stacck(stack_t **head, unsigned int num);
 #endif
