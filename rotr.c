@@ -3,6 +3,7 @@
  * rotr - A function that rotates the stack to the bottom.
  * @head: A pointer to the stack.
  * @num: The line number.
+ * Return: 0
  */
 void rotr(stack_t **head, unsigned int num)
 {

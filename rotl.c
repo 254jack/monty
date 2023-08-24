@@ -3,6 +3,7 @@
  * rotl - A function that rotates the stack to the top.
  * @head: A pointer to the stack.
  * @num: The line number.
+ * Return: 0
  */
 void rotl(stack_t **head, unsigned int num)
 {
